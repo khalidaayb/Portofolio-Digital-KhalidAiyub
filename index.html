@@ -3,35 +3,37 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Khalid Aiyub Al Anshari — IT Support & Systems Technician based in Cimahi, West Java. Experienced in technical support, CCTV installation, computer assembly, and IT administration." />
+  <meta name="description" content="Khalid Aiyub Al Anshari — IT Support • System Administration • Technical Support based in Cimahi, West Java. Experienced in technical support, CCTV installation, computer assembly, and IT administration." />
   <title>Khalid Aiyub Al Anshari — Portfolio</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/playfair-display@latest/latin-400-normal.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/playfair-display@latest/latin-600-normal.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/playfair-display@latest/latin-700-normal.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/playfair-display@latest/latin-400-italic.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/dm-sans@latest/latin-300-normal.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/dm-sans@latest/latin-400-normal.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/dm-sans@latest/latin-500-normal.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/dm-sans@latest/latin-600-normal.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     /* ─── Design Tokens ─── */
-    :root {
-      --terracotta:  #C1836A;
-      --terra-dark:  #a3654e;
-      --terra-light: #d9a48d;
-      --cream:       #F5EDE4;
-      --cream-2:     #FAF4EC;
-      --deep-brown:  #2C2417;
-      --taupe:       #7A6152;
-      --blush:       #E8D5C4;
-      --blush-dark:  #d9c2ae;
-      --white:       #fff;
-      --shadow-sm: 0 2px 10px rgba(44,36,23,0.06);
-      --shadow-md: 0 12px 30px rgba(44,36,23,0.08);
-      --shadow-lg: 0 24px 50px rgba(44,36,23,0.12);
-      --heading:     'Playfair Display', Georgia, serif;
-      --body:        'DM Sans', system-ui, sans-serif;
-    }
+   :root {
+  --terracotta:  #3B82F6;
+  --terra-dark:  #2563EB;
+  --terra-light: #60A5FA;
+
+  --cream:       #F8FAFC;
+  --cream-2:     #F1F5F9;
+
+  --deep-brown:  #0F172A;
+  --taupe:       #64748B;
+
+  --blush:       #E2E8F0;
+  --blush-dark:  #CBD5E1;
+
+  --white:       #FFFFFF;
+
+  --shadow-sm: 0 2px 10px rgba(15,23,42,0.08);
+  --shadow-md: 0 12px 30px rgba(15,23,42,0.12);
+  --shadow-lg: 0 24px 50px rgba(15,23,42,0.18);
+
+  --heading: 'Manrope', sans-serif;
+  --body: 'Manrope', sans-serif;
+}
 
     /* ─── Reset ─── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -187,16 +189,16 @@
     /* ─── Navigation ─── */
     nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      background: rgba(245, 237, 228, 0.72);
+      background: rgba(248,250,252,0.78);
       backdrop-filter: saturate(180%) blur(16px);
       -webkit-backdrop-filter: saturate(180%) blur(16px);
-      border-bottom: 1px solid rgba(217,194,174,0.4);
+      border-bottom: 1px solid rgba(203,213,225,0.4);
       transition: padding 0.3s ease, background 0.3s ease;
     }
     nav.scrolled {
       padding: 0;
-      background: rgba(245, 237, 228, 0.92);
-      box-shadow: 0 4px 30px rgba(44,36,23,0.05);
+      background: rgba(248,250,252,0.95);
+      box-shadow: 0 4px 30px rgba(15,23,42,0.08);
     }
     .nav-inner {
       display: flex; align-items: center; justify-content: space-between;
@@ -206,7 +208,7 @@
     .nav-logo {
       font-family: var(--heading);
       font-size: 1.4rem;
-      font-weight: 700;
+      font-weight: 800;
       color: var(--deep-brown);
       letter-spacing: -0.01em;
     }
@@ -930,7 +932,11 @@
 
     /* ─── Contact ─── */
     #contact {
-      background: linear-gradient(135deg, var(--deep-brown) 0%, #3a2f1f 100%);
+      background: linear-gradient(
+  135deg,
+  #0F172A 0%,
+  #1E293B 100%
+);
       position: relative;
       overflow: hidden;
     }
@@ -939,7 +945,7 @@
       position: absolute;
       top: -50%; right: -20%;
       width: 600px; height: 600px;
-      background: radial-gradient(circle, rgba(193,131,106,0.15) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(59,130,246,0.15) 0%, transparent 70%);
       border-radius: 50%;
     }
     #contact::after {
@@ -947,7 +953,7 @@
       position: absolute;
       bottom: -30%; left: -10%;
       width: 500px; height: 500px;
-      background: radial-gradient(circle, rgba(193,131,106,0.1) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(59,130,246,0.1) 0%, transparent 70%);
       border-radius: 50%;
     }
     .contact-inner {
@@ -957,7 +963,7 @@
     }
     .contact-inner .section-title { color: var(--cream); }
     .contact-inner .section-sub {
-      color: rgba(245,237,228,0.75);
+      color: rgba(248,250,252,0.75);
       max-width: 540px;
       margin: 0 auto 3rem;
     }
@@ -984,11 +990,11 @@
       background: var(--terracotta);
       border-color: var(--terracotta);
       transform: translateY(-3px);
-      box-shadow: 0 10px 24px rgba(193,131,106,0.3);
+      box-shadow: 0 10px 24px rgba(59,130,246,0.3);
     }
     .contact-link svg { width: 18px; height: 18px; }
     .socials-label {
-      color: rgba(245,237,228,0.5);
+      color: rgba(248,250,252,0.5);
       font-size: 0.78rem;
       margin-bottom: 1.2rem;
       text-transform: uppercase;
@@ -1004,9 +1010,10 @@
   display:flex;
   align-items:center;
   gap:8px;
-  background:rgba(255,255,255,0.05);
-  border:1px solid rgba(255,255,255,0.1);
-  color:rgba(245,237,228,0.85);
+  text-decoration:none;
+  background:rgba(255,255,255,0.06);
+  border:1px solid rgba(255,255,255,0.12);
+  color:rgba(248,250,252,0.85);
   padding:10px 18px;
   border-radius:50px;
   font-size:0.85rem;
@@ -1024,26 +1031,31 @@
   border-color:var(--terracotta);
   color:white;
   transform:translateY(-3px);
-  box-shadow:0 10px 25px rgba(193,131,106,.35);
+  box-shadow:0 10px 25px rgba(59,130,246,.35);
 }
 
     /* ─── Footer ─── */
     footer {
-      background: #1a0f07;
-      color: rgba(245,237,228,0.5);
-      text-align: center;
-      padding: 2rem 2rem;
-      font-size: 0.85rem;
-    }
-    footer span { color: var(--terracotta); }
-    footer .divider {
-      display: inline-block;
-      width: 4px; height: 4px;
-      border-radius: 50%;
-      background: rgba(245,237,228,0.3);
-      margin: 0 10px;
-      vertical-align: middle;
-    }
+  background: #0F172A;
+  color: rgba(255,255,255,0.65);
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.85rem;
+}
+
+footer span {
+  color: var(--terracotta);
+}
+
+footer .divider {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.25);
+  margin: 0 10px;
+  vertical-align: middle;
+}
 
     /* ─── Animations ─── */
     .reveal {
@@ -1261,7 +1273,9 @@
           <h1 class="hero-name fade-up delay-1">
             Hi, I'm <span class="accent">Khalid Aiyub</span><br>Al Anshari.
           </h1>
-          <p class="hero-role fade-up delay-2">IT Support &amp; Systems Technician</p>
+          <p class="hero-role fade-up delay-2">
+  IT Support • System Administration • Technical Support
+</p>
           <p class="hero-tagline fade-up delay-3">
             I help schools, businesses, and projects run smoothly through hands-on technical support,
             infrastructure setup, and reliable IT operations — from CCTV installation to computer assembly.
